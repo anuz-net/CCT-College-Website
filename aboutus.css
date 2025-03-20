@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+    font-family: Poppins, sans-serif;
+}
+
+/* Top Header */
+.navbar.bg-primary {
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Main Navigation Bar */
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Banner Section */
+.page-title-area {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 100px 20px;
+    color: white;
+    margin-top: 30px;
+}
+.page-title-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay to reduce brightness */
+}
+
+.page-title-content {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.page-title-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.page-title-content ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.page-title-content ul li {
+    font-size: 16px;
+    color: white;
+}
+
+.page-title-content ul li a {
+    text-decoration: none;
+    color:white !important; /* Bright yellow to make text stand out */
+    font-weight: bold;
+}
+
+.page-title-content ul li.active {
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+/* About Section */
+.about-content span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
+.about-area {
+    margin-top: 50px; /* Space between second and third image */
+}
+
+.about-content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.about-content p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Mission, Vision, Objectives Slider */
+.campus-experience-bg {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    height:300px;
+}
+.campus-experience-area {
+    margin-top: 50px; /* Space between third and next section */
+}
+
+
+/* Box in the bottom-right corner */
+.info-box {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.9); /* White background */
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure text inside box is readable */
+.info-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info-box p, .info-box ul {
+    font-size: 14px;
+}
+
+/* Navigation button styles */
+.carousel-control-prev, .carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+/* Style for the Principal's section */
+.principal-container {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 30px;
+    border-radius: 10px;
+    margin-top:50px;
+}
+
+/* Make "Message From Principal" bold and bigger */
+.costing-content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.costing-area {
+    margin-top:90px;
+}
+
+/* Make the Principal's name red */
+.single-costing-card h3 {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the Principal's content */
+.single-costing-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
